@@ -1,0 +1,50 @@
+﻿@model List<EShop.Web.Models.Domain.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="m-3">
+        <a class="btn btn-success" asp-controller="Products" asp-action="Create">Add new product</a>
+    </div>
+    @for (var i = 0; i < Model.Count; i++)
+    {
+        var Item = Model[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+        }
+
+        <div class="col-md-3 m-4">
+        <div class="card" style="width: 18rem; height: 28rem">
+        <img class="card-img-top" src="@Item.ProductImage" alt="Image for product!">
+            <div class="card-body">
+                <h5 class="card-title">@Item.ProductName</h5>
+                <p class="card-text">@Item.ProductDescription</p>
+           
+            </div>
+            <div class="card-footer">
+
+                <a asp-controller="Product" asp-action="AddToProductCart" class="btn btn-info">Add to Cart</a>
+                <a asp-controller="Product" asp-action="Edit" class="btn btn-secondary">Edit</a>
+                <a asp-controller="Product" asp-action="Delete" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+
+        </div>
+
+        if (i % 3 == 2)
+        {
+            @:</div>
+        }
+        {
+            
+        }
+    }
+
+</div>
+
+

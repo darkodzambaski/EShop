@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop.Web\\EShop.Web.csproj": {}
+    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop.Web\\EShop.Web.csproj": {
+    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop.Web\\EShop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj",
         "projectName": "EShop.Web",
-        "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop.Web\\EShop.Web.csproj",
+        "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj",
         "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop.Web\\obj\\",
+        "outputPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
               "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"
             }
