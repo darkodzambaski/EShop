@@ -19,18 +19,19 @@
         }
 
         <div class="col-md-3 m-4">
-        <div class="card" style="width: 18rem; height: 28rem">
-        <img class="card-img-top" src="@Item.ProductImage" alt="Image for product!">
+        <div class="card" style="width: 18rem; height: 35rem">
+        <img class="card-img-top" src="@Item.ProductImage" style="height:50%" alt="Image for product!">
             <div class="card-body">
-                <h5 class="card-title">@Item.ProductName</h5>
+                <h3 class="card-title">@Item.ProductName</h3>
                 <p class="card-text">@Item.ProductDescription</p>
+                <h6>Price: @Item.ProductPrice MKD</h6>
            
             </div>
             <div class="card-footer">
 
-                <a asp-controller="Product" asp-action="AddToProductCart" class="btn btn-info">Add to Cart</a>
-                <a asp-controller="Product" asp-action="Edit" class="btn btn-secondary">Edit</a>
-                <a asp-controller="Product" asp-action="Delete" class="btn btn-danger">Delete</a>
+                <a asp-controller="Products" asp-action="AddToProductCart" class="btn btn-info">Add to Cart</a>
+                <a asp-controller="Products" asp-action="Edit" asp-route-id="@Item.Id" class="btn btn-secondary">Edit</a>
+                <a asp-controller="Products" asp-action="Delete" asp-route-id="@Item.Id" class="btn btn-danger">Delete</a>
             </div>
         </div>
 
