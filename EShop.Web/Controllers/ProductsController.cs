@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EShop.Web.Data;
 using EShop.Web.Models.Domain;
+using EShop.Web.Models.DTO;
+using System.Security.Claims;
 
 namespace EShop.Web.Controllers
 {
@@ -20,11 +22,55 @@ namespace EShop.Web.Controllers
             _context = context;
         }
 
-        // GET: Products
+        // GET: Products 
         public async Task<IActionResult> Index()
         {
             return View(await _context.Products.ToListAsync());
         }
+
+        public async Task <IActionResult> AddToProductCart(Guid? id)
+        {
+            var product = await _context.Products.Where(z => z.Id.Equals(id)).FirstOrDefaultAsync();
+            AddToShoppingCartDTO model = new AddToShoppingCartDTO
+            {
+                SelectedProduct = product,
+                ProductId= product.Id,
+                Quantity = 1
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddToProductCart([Bind("ProductId", "Quantity")]AddToShoppingCartDTO item)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var userShoppingCart = await _context.ShoppingCarts.Where(z => z.OwnerId.Equals(userId)).FirstOrDefaultAsync();
+
+            if (item.ProductId != null && userShoppingCart != null)
+            {
+                var product = await _context.Products.Where(z => z.Id.Equals(item.ProductId)).FirstOrDefaultAsync();
+
+                if(product != null)
+                {
+                    ProductinShoppingCart itemToAdd = new ProductinShoppingCart
+                    {
+                        Product = product,
+                        ProductId = product.Id,
+                        ShoppingCart = userShoppingCart,
+                        ShoppingCartId = userShoppingCart.Id,
+                        Quantity = item.Quantity
+                    };
+                    _context.Add(itemToAdd);
+                    await _context.SaveChangesAsync();
+
+                }
+                return RedirectToAction("Index", "Products");
+            }
+                 return View(item);
+        }
+        
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(Guid? id)

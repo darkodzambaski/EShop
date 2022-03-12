@@ -29,7 +29,7 @@
             </div>
             <div class="card-footer">
 
-                <a asp-controller="Products" asp-action="AddToProductCart" class="btn btn-info">Add to Cart</a>
+                <a asp-controller="Products" asp-action="AddToProductCart" asp-route-id="@Item.Id" class="btn btn-info">Add to Cart</a>
                 <a asp-controller="Products" asp-action="Edit" asp-route-id="@Item.Id" class="btn btn-secondary">Edit</a>
                 <a asp-controller="Products" asp-action="Delete" asp-route-id="@Item.Id" class="btn btn-danger">Delete</a>
             </div>
