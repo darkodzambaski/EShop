@@ -10,6 +10,8 @@ using EShop.Web.Data;
 using EShop.Web.Models.Domain;
 using EShop.Web.Models.DTO;
 using System.Security.Claims;
+using EShop.Web.Models.Identity;
+using Microsoft.AspNetCore.Identity;
 
 namespace EShop.Web.Controllers
 {
