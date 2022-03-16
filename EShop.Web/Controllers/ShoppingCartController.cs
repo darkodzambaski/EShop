@@ -55,5 +55,29 @@ namespace EShop.Web.Controllers
 
             return View(shoppingCartDTOitem);
         }
+        public async Task<IActionResult> DeleteProductFromShoppingCart (Guid? productId)
+        {
+            //operation
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var loggedInUser = await _context.Users
+                .Where(z => z.Id == userId)
+                .Include(z => z.UserCart)
+                .Include(z => z.UserCart.ProductinShoppingCarts)
+                .Include("UserCart.ProductinShoppingCarts.Product")
+                .FirstOrDefaultAsync();
+
+            var  userShoppingcart = loggedInUser.UserCart;
+            var productToDelete = userShoppingcart.ProductinShoppingCarts
+                .Where(z => z.ProductId.Equals(productId))
+                .FirstOrDefault();
+
+            userShoppingcart.ProductinShoppingCarts.Remove(productToDelete);
+
+            _context.Update(userShoppingcart);
+            await _context.SaveChangesAsync();
+          
+            return RedirectToAction("Index", "ShoppingCart");
+        }
     }
 }

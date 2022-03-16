@@ -9,6 +9,7 @@
       <th scope="col">Product Price</th>
       <th scope="col">Quantity</th>
       <th scope="col">Sum</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -21,6 +22,7 @@
       <td>@item.Product.ProductPrice</td>
       <td>@item.Quantity</td>
       <td>@(@item.Product.ProductPrice *item.Quantity) MKD</td>
+      <td><a asp-route-productId="@item.ProductId" asp-action="DeleteProductFromShoppingCart" class="btn btn-danger">Delete</a></td>
     </tr>
       }
   </tbody>
