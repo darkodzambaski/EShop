@@ -16,5 +16,6 @@ namespace EShop.Web.Models.Domain
         [Required]
         public int Rating { get; set; }
         public virtual ICollection<ProductinShoppingCart>? ProductinShoppingCarts { get; set; }
+        public virtual ICollection<ProductinOrder>? Orders { get; set; }
     }
 }

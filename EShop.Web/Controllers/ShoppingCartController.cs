@@ -1,4 +1,5 @@
 ﻿using EShop.Web.Data;
+using EShop.Web.Models.Domain;
 using EShop.Web.Models.DTO;
 using EShop.Web.Models.Identity;
 using Microsoft.AspNetCore.Identity;
@@ -69,7 +70,7 @@ namespace EShop.Web.Controllers
 
             var  userShoppingcart = loggedInUser.UserCart;
             var productToDelete = userShoppingcart.ProductinShoppingCarts
-                .Where(z => z.ProductId.Equals(productId))
+                .Where(z => z.ProductId == productId)
                 .FirstOrDefault();
 
             userShoppingcart.ProductinShoppingCarts.Remove(productToDelete);
@@ -77,6 +78,52 @@ namespace EShop.Web.Controllers
             _context.Update(userShoppingcart);
             await _context.SaveChangesAsync();
           
+            return RedirectToAction("Index", "ShoppingCart");
+        }
+        public async Task <IActionResult> OrderNow()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var loggedInUser = await _context.Users
+                .Where(z => z.Id == userId)
+                .Include(z => z.UserCart)
+                .Include(z => z.UserCart.ProductinShoppingCarts)
+                .Include("UserCart.ProductinShoppingCarts.Product")
+                .FirstOrDefaultAsync();
+
+            var userShoppingCart = loggedInUser.UserCart;
+
+            Order orderitem = new Order
+            {
+                Id = Guid.NewGuid(),
+                UserId = userId,
+                User = loggedInUser,
+            };
+
+            _context.Add(orderitem);
+           
+
+            List<ProductinOrder> productinOrders = new List<ProductinOrder>();
+
+            productinOrders = userShoppingCart.ProductinShoppingCarts
+                .Select(z => new ProductinOrder
+                {
+                    OrderId = orderitem.Id,
+                    ProductId = z.ProductId,
+                    SelectedProduct = z.Product,
+                    UserOrder = orderitem
+                }).ToList();  
+
+           foreach (var item in productinOrders)
+            {
+                _context.Add(orderitem);
+               
+            }
+
+            loggedInUser.UserCart.ProductinShoppingCarts.Clear();
+
+            _context.Update(loggedInUser);
+            await _context.SaveChangesAsync();
+
             return RedirectToAction("Index", "ShoppingCart");
         }
     }

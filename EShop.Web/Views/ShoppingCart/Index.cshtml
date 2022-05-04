@@ -1,6 +1,9 @@
 ﻿@model EShop.Web.Models.DTO.ShoppingCartDTO
-
-<div class="m-5">
+<div class="container">
+<div class="row m-5">
+    <a asp-action="OrderNow" class="btn btn-success">Order</a>
+</div>
+<div class="row m-5">
     <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
@@ -36,4 +39,5 @@
     </tr>
   </tfoot>
 </table>
+</div>
 </div>
