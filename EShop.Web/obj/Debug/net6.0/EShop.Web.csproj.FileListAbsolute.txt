@@ -340,3 +340,11 @@ C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\ne
 C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\Nest.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Domain.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Repository.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Services.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Domain.pdb
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Repository.pdb
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Web\bin\Debug\net6.0\EShop.Services.pdb

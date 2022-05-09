@@ -4,6 +4,201 @@
     "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj",
+        "projectName": "EShop.Domain",
+        "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj",
+        "projectName": "EShop.Repository",
+        "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\EShop.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\EShop.Services.csproj",
+        "projectName": "EShop.Services",
+        "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\EShop.Services.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj"
+              },
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Web\\EShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +222,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Domain\\EShop.Domain.csproj"
+              },
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Repository\\EShop.Repository.csproj"
+              },
+              "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\EShop.Services.csproj": {
+                "projectPath": "C:\\Users\\Darko\\Integrirani sistemi\\EShopApplication\\EShop\\EShop.Services\\EShop.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -83,7 +288,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

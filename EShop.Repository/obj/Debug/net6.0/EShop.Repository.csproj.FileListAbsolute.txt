@@ -1,0 +1,15 @@
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\bin\Debug\net6.0\EShop.Repository.deps.json
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\bin\Debug\net6.0\EShop.Repository.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\bin\Debug\net6.0\EShop.Repository.pdb
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\bin\Debug\net6.0\EShop.Domain.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\bin\Debug\net6.0\EShop.Domain.pdb
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.csproj.AssemblyReference.cache
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.AssemblyInfoInputs.cache
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.AssemblyInfo.cs
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.csproj.CopyComplete
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\refint\EShop.Repository.dll
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\EShop.Repository.pdb
+C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\EShop.Repository\obj\Debug\net6.0\ref\EShop.Repository.dll

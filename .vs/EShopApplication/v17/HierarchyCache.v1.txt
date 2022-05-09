@@ -1,0 +1,403 @@
+﻿++Solution 'EShopApplication' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:EShopApplication.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++.editorconfig
+i:{90d4ce67-1195-4fff-81e1-ac40bbff6681}:C:\Users\Darko\Integrirani sistemi\EShopApplication\EShop\.editorconfig
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\.editorconfig
+++EShop
+i:{00000000-0000-0000-0000-000000000000}:EShop
+++EShop.Services
+i:{59c880ae-2773-4bf9-891d-6eef346da56c}:EShop.Services
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\eshop.services.csproj
+++Dependencies
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:>636
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:>638
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:>637
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1124
+++Analyzers
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:analyzers
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:analyzers
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:analyzers
+++Frameworks
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:frameworks
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:frameworks
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:frameworks
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:frameworks
+++Packages
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:packages
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:packages
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:packages
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:packages
+++Projects
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:projects
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:projects
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:projects
+++Implementation
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\implementation\
+++ProductService.cs
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\implementation\productservice.cs
+++Interface
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\interface\
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\interface\
+++IProductService.cs
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\interface\iproductservice.cs
+++Class1.cs
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\class1.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.services\microsoft.netcore.app
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\microsoft.netcore.app
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\microsoft.netcore.app
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\microsoft.netcore.app
+++NEST (7.17.1)
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:>1325
+++EShop.Domain
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\eshop.domain.csproj
+i:{59c880ae-2773-4bf9-891d-6eef346da56c}:EShop.Domain
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\eshop.domain.csproj
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\eshop.domain.csproj
+++EShop.Repository
+i:{7ead986b-6620-4a6f-af73-1c2db09699c0}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\eshop.repository.csproj
+i:{59c880ae-2773-4bf9-891d-6eef346da56c}:EShop.Repository
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\eshop.repository.csproj
+++Domainmodels
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\
+++BaseEntity.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\baseentity.cs
+++Order.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\order.cs
+++Product.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\product.cs
+++ProductinOrder.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\productinorder.cs
+++ProductinShoppingCart.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\productinshoppingcart.cs
+++ShoppingCart.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\domainmodels\shoppingcart.cs
+++DTO
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\dto\
+++AddToShoppingCartDTO.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\dto\addtoshoppingcartdto.cs
+++ShoppingCartDTO.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\dto\shoppingcartdto.cs
+++Identity
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\identity\
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\areas\identity\
+++EShopApplicationUser.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\identity\eshopapplicationuser.cs
+++UserLoginDto.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\identity\userlogindto.cs
+++UserRegistrationDto.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\identity\userregistrationdto.cs
+++ErrorViewModel.cs
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.domain\errorviewmodel.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{e300bdb9-d040-44fb-954d-6580a3a7f706}:>1240
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:>1134
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1152
+++Implemenation
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\implemenation\
+++Repository.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\implemenation\repository.cs
+++UserRepository.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\implemenation\userrepository.cs
+++IRepository.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\interface\irepository.cs
+++IUserRepository.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\interface\iuserrepository.cs
+++Migrations
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\migrations\
+++ApplicationDbContext.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\applicationdbcontext.cs
+++20220508174327_InitialMigration.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\migrations\20220508174327_initialmigration.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\migrations\applicationdbcontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:>1133
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1150
+++20220508174327_InitialMigration.Designer.cs
+i:{293ac508-6bd8-47ca-a768-22bd99e869ac}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.repository\migrations\20220508174327_initialmigration.designer.cs
+++EShop.Web
+i:{59c880ae-2773-4bf9-891d-6eef346da56c}:EShop.Web
+++Connected Services 
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1125
+++Secrets.json (Local)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1340
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1187
+++MessagePackAnalyzer
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\microsoft.aspnetcore.app
+++FluentAssertions (6.6.0)
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.2)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1151
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1155
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1153
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1154
+++Properties
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\properties\
+++launchSettings.json
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\properties\launchsettings.json
+++serviceDependencies.json
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\properties\servicedependencies.json
+++wwwroot
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\
+++css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\css\
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\js\
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\
+++favicon.ico
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\favicon.ico
+++Areas
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\areas\
+++Pages
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\areas\identity\pages\
+++_ViewStart.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\areas\identity\pages\_viewstart.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\_viewstart.cshtml
+++Controllers
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\controllers\
+++AccountController.cs
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\controllers\accountcontroller.cs
+++HomeController.cs
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\controllers\homecontroller.cs
+++ProductsController.cs
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\controllers\productscontroller.cs
+++ShoppingCartController.cs
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\controllers\shoppingcartcontroller.cs
+++Views
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\
+++Account
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\account\
+++Login.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\account\login.cshtml
+++Register.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\account\register.cshtml
+++Home
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\home\
+++Index.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\home\index.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\index.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shoppingcart\index.cshtml
+++Privacy.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\home\privacy.cshtml
+++Products
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\
+++AddToProductCart.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\addtoproductcart.cshtml
+++Create.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\create.cshtml
+++Delete.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\delete.cshtml
+++Details.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\details.cshtml
+++Edit.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\products\edit.cshtml
+++Shared
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\
+++_Layout.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\error.cshtml
+++ShoppingCart
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shoppingcart\
+++_ViewImports.cshtml
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\_viewimports.cshtml
+++appsettings.json
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\appsettings.json
+++appsettings.Development.json
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\appsettings.development.json
+++Program.cs
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\program.cs
+++Secrets.json (Local) dependency is detected
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:>1341
+++serviceDependencies.local.json
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\properties\servicedependencies.local.json
+++site.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\css\site.css
+++site.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\js\site.js
+++bootstrap
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\
+++jquery
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\
+++jquery-validation
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\views\shared\_layout.cshtml.css
+++dist
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\dist\
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\license.txt
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{1c40a201-8b17-475a-8a70-64d5fedc7fb7}:c:\users\darko\integrirani sistemi\eshopapplication\eshop\eshop.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

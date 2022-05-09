@@ -1,8 +1,5 @@
-﻿//using EShop.Domain.DomainModels;
-
-using EShop.Domain.Idenitity;
-using EShop.Web.Models.Domain;
-using EShop.Web.Models.Identity;
+﻿using EShop.Domain.Domainmodels;
+using EShop.Domain.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
